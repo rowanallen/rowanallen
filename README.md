@@ -1,4 +1,6 @@
-### Hi there 👋
+### Hi, I'm Rowan
+This is where you can find my writing portfolio.
+
 
 <!--
 **rowanallen/rowanallen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
