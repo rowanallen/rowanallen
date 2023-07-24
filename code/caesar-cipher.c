@@ -5,7 +5,7 @@
 
 Implements a Caesar cipher, both encrypting and decrypting. The key is an integer. This cipher performs its encryption by replacing 
 each character in the message by 'shifting' the ASCII value of the character up by a given number of places (the key). i.e. key 2 
-encrypts "HI" to "JK". Shifting down is also possible, but this program implements an upward shift. */
+encrypts "HI" to "JK". Shifting down is also possible, but this program implements an upward shift. To do: Implement negative shift Caesar cipher */
 
 /* ENCRYPTION */
     
@@ -53,7 +53,22 @@ int encrypt(int shift, int size, char string1[]){
        if(k==255){
            continue;
        }
-        // Otherwise, perform the shift
+
+	/* Loop around if you are at the end of the alphabet
+	Uppercase Z
+	if(k==90){
+       	k = 65 + shift;
+       	}
+	Lowercase z
+	else if(k==122){
+           k = 97 + shift;
+      	} */
+
+	/* Loop around if you are at the start of the alphabet in the case 
+	of downward shift (not implemented yet) */
+       
+	// Otherwise, perform the shift
+	// put else statement
         k = k + shift;
 
         // Place the new int value back into the array
