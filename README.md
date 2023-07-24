@@ -1,5 +1,5 @@
 ### Hi, I'm Rowan
-This is where you can find my writing portfolio.
+This is where you can find my writing portfolio and various programming projects.
 
 
 <!--
